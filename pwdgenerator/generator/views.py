@@ -8,6 +8,10 @@ def home(request):
     # return HttpResponse('hello world')
     return render(request, 'generator/home.html')
 
+def about(request):
+    return render(request, 'generator/about.html')
+
+
 def password(request):
     chars = list(string.ascii_lowercase)
     
